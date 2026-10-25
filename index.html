@@ -1,0 +1,283 @@
+<!doctype html>
+<!-- ============================================================================
+     Tony & Maria: wedding invitation
+     All wording lives in content.js. Edit that file, not this one.
+     Only the link-preview tags below (title, description, og:*) are read
+     directly by WhatsApp, so update names + domain here once.
+     ========================================================================== -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tony &amp; Maria · Wedding · 23 January 2027</title>
+<meta name="description" content="Tony Antony and Maria Sabu are getting married on Saturday, 23 January 2027 at 11:15 AM, at St. Mary's Church, Kalathoor, followed by lunch at the parish hall. Bless us with your presence.">
+<meta name="theme-color" content="#FAF3E3">
+
+<!-- link previews (WhatsApp, iMessage, Facebook): the image URL must be absolute -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tony & Maria are getting married">
+<meta property="og:site_name" content="Tony & Maria">
+<meta property="og:description" content="You are invited! Saturday, 23 January 2027 · St. Mary's Church, Kalathoor. Tap to open the invitation and RSVP.">
+<meta property="og:url" content="https://example.com/">
+<meta property="og:image" content="https://example.com/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:alt" content="Tony and Maria are getting married on 23 January 2027 at St. Mary's Church, Kalathoor">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+<link rel="preload" as="image" href="assets/cards/lovers-2-768.webp"
+      imagesrcset="assets/cards/lovers-2-480.webp 480w, assets/cards/lovers-2-768.webp 768w, assets/cards/lovers-2-1024.webp 1024w"
+      imagesizes="(min-width:768px) 420px, 78vw" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IM+Fell+English+SC&family=Monsieur+La+Doulaise&family=Noto+Serif+Malayalam:wght@400;500;600&display=swap" rel="stylesheet">
+<script>/* pick the version before first paint so the theme never flashes (see content.js → versions) */
+(function(){ var q = new URLSearchParams(location.search), v = q.get("event") || q.get("e") || (q.has("engagement") ? "engagement" : "");
+  if (v !== "engagement") return;
+  document.documentElement.setAttribute("data-event", "engagement");
+  var l = document.createElement("link"); l.rel = "stylesheet";
+  l.href = "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..800;1,9..144,400..800&display=swap";
+  document.head.appendChild(l);
+  var m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = "#FFF3EC";
+})();</script>
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="styles.css">
+<noscript><style>.rv,[data-split]{opacity:1 !important; transform:none !important} .hero .h-in{opacity:1; transform:none; clip-path:none}</style></noscript>
+</head>
+<body>
+<div id="grain" aria-hidden="true"></div><div id="vignette" aria-hidden="true"></div><div id="frame" aria-hidden="true"></div>
+
+<!-- ======================= NAV ======================= -->
+<nav id="nav">
+  <a class="brand" href="#top" aria-label="Top">
+    <svg viewBox="-12 -12 24 24" aria-hidden="true"><circle r="4.6"/><g class="brand-rays"></g></svg>
+    <span class="brand-names" data-names>Tony &amp; Maria</span>
+  </a>
+  <div class="nav-links">
+    <a href="#events" data-t="nav.events">Events</a>
+    <a href="#travel" data-t="nav.travel">Getting There</a>
+    <a href="#rsvp" data-t="nav.rsvp">RSVP</a>
+  </div>
+  <div class="nav-tools">
+    <div class="langs" id="langs" role="group" aria-label="Language">
+      <button type="button" data-l="en" lang="en">EN</button>
+      <button type="button" data-l="ml" lang="ml">മല</button>
+    </div>
+    <button id="soundBtn" type="button" aria-pressed="false" hidden>
+      <svg viewBox="0 0 16 16" aria-hidden="true"><line class="bar" x1="3" y1="4" x2="3" y2="13"/><line class="bar" x1="8" y1="2" x2="8" y2="13"/><line class="bar" x1="13" y1="5" x2="13" y2="13"/></svg>
+      <span data-t="sound">Sound</span>
+    </button>
+  </div>
+</nav>
+
+<main id="top">
+
+  <!-- ======================= HERO ======================= -->
+  <section id="hero" class="hero">
+    <div class="hero-stage">
+      <h1 class="sr-only" data-names lang="en">Tony &amp; Maria</h1>
+      <div class="hero-card" id="heroCard">
+        <div class="tilt" id="tilt">
+          <div class="turn" id="turn">
+            <div class="side front">
+              <picture>
+                <source type="image/webp" srcset="assets/cards/lovers-2-480.webp 480w, assets/cards/lovers-2-768.webp 768w, assets/cards/lovers-2-1024.webp 1024w" sizes="(min-width:768px) 420px, 78vw">
+                <img src="assets/cards/lovers-2.jpg" width="1024" height="1536" fetchpriority="high"
+                     alt="Illustration of Tony and Maria seated together beneath the sun, an angel holding a heart, lilies and roses around them">
+              </picture>
+              <span class="plate pt c2" aria-hidden="true"></span><span class="plate pb c2" aria-hidden="true"><span data-t="cardWord">Wedding</span><i>·</i><span data-date>23 · 01 · 2027</span></span>
+              <span class="foil" aria-hidden="true"></span>
+            </div>
+            <div class="side back">
+              <picture>
+                <source type="image/webp" srcset="assets/cards/lovers-1-480.webp 480w, assets/cards/lovers-1-768.webp 768w, assets/cards/lovers-1-1024.webp 1024w" sizes="(min-width:768px) 420px, 78vw">
+                <img src="assets/cards/lovers-1.jpg" width="1024" height="1536" fetchpriority="low"
+                     alt="Illustration of Tony and Maria standing together beneath a golden sun, two angels watching from the clouds">
+              </picture>
+              <span class="plate pt c1" aria-hidden="true"></span><span class="plate pb c1" aria-hidden="true"><span data-t="cardWord">Wedding</span><i>·</i><span data-date>23 · 01 · 2027</span></span>
+              <span class="foil" aria-hidden="true"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="cue h-in" href="#invite"><span data-t="scrollCue">You are invited</span><i></i></a>
+    </div>
+  </section>
+
+  <!-- ======================= INVITATION ======================= -->
+  <section id="invite" class="sec wrap center">
+    <p class="eyebrow" data-split data-t="inviteEyebrow">Together with our families</p>
+    <p class="lead" data-split data-t="inviteIntro">We're delighted to invite you to celebrate the wedding of</p>
+    <div class="couple">
+      <div class="person rv">
+        <p class="pname" data-groom lang="en">Tony Antony</p>
+        <p class="prel"><span data-t="sonOf">Son of</span></p>
+        <p class="pfam" data-fam="groom"></p>
+      </div>
+      <p class="amp rv" aria-hidden="true">&amp;</p>
+      <div class="person rv" data-d="1">
+        <p class="pname" data-bride lang="en">Maria Sabu</p>
+        <p class="prel"><span data-t="daughterOf">Daughter of</span></p>
+        <p class="pfam" data-fam="bride"></p>
+      </div>
+    </div>
+    <p class="solicit" data-split data-t="inviteSolicit">Bless us with your presence</p>
+    <figure class="verse rv">
+      <img class="flourish" src="assets/flourish.svg" alt="" width="220" height="40">
+      <blockquote id="quoteText"></blockquote>
+    </figure>
+  </section>
+
+  <!-- ======================= COUNTDOWN ======================= -->
+  <section id="countdown" class="sec wrap center">
+    <p class="eyebrow rv" data-t="countEyebrow">Until the Day</p>
+    <p class="cd-date rv" id="cdDate"></p>
+    <div id="cd" class="rv" role="timer" aria-live="off">
+      <div class="u"><span class="n" id="cdD">00</span><span class="l" data-t="countdown.days">days</span></div>
+      <div class="u"><span class="n" id="cdH">00</span><span class="l" data-t="countdown.hours">hours</span></div>
+      <div class="u"><span class="n" id="cdM">00</span><span class="l" data-t="countdown.mins">minutes</span></div>
+      <div class="u"><span class="n" id="cdS">00</span><span class="l" data-t="countdown.secs">seconds</span></div>
+    </div>
+    <div class="cal rv">
+      <p class="flabel" data-t="calAdd">Add to calendar</p>
+      <div class="cal-btns">
+        <a class="btn" id="calGoogle" target="_blank" rel="noopener" data-t="calGoogle">Google Calendar</a>
+        <button class="btn" type="button" id="calIcs" data-t="calIcs">Apple / Outlook</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= EVENTS ======================= -->
+  <section id="events" class="sec wrap center">
+    <p class="eyebrow rv" data-t="evEyebrow">The Celebrations</p>
+    <h2 class="rv" data-split data-t="evTitle">The Big Day</h2>
+    <div class="ev-list" id="evList"></div>
+  </section>
+
+  <!-- ======================= GETTING THERE ======================= -->
+  <section id="travel" class="sec wrap center">
+    <p class="eyebrow rv" data-t="trEyebrow">Finding Us</p>
+    <h2 class="rv" data-split data-t="trTitle">Getting to Kalathoor</h2>
+    <div class="ways">
+      <article class="way rv">
+        <span class="way-ic"><svg class="solid" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg></span>
+        <h3 data-t="trAirT">By air</h3>
+        <p data-t="trAirP"></p>
+      </article>
+      <article class="way rv" data-d="1">
+        <span class="way-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="14" rx="3"/><path d="M5 11h14M9 21l1.5-4M15 21l-1.5-4"/><circle cx="9" cy="14" r=".9"/><circle cx="15" cy="14" r=".9"/></svg></span>
+        <h3 data-t="trTrainT">By train</h3>
+        <p data-t="trTrainP"></p>
+      </article>
+      <article class="way rv" data-d="2">
+        <span class="way-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 16v-3.5L6.2 7.6A2 2 0 0 1 8 6.5h8a2 2 0 0 1 1.8 1.1L20 12.5V16a1 1 0 0 1-1 1h-1.5M6.5 17H5a1 1 0 0 1-1-1M4 12.5h16"/><circle cx="8" cy="16.5" r="1.8"/><circle cx="16" cy="16.5" r="1.8"/></svg></span>
+        <h3 data-t="trRoadT">By road</h3>
+        <p data-t="trRoadP"></p>
+      </article>
+    </div>
+
+    <div class="map-card rv" id="mapCard">
+      <div class="map-inner" id="mapInner"></div>
+      <p class="map-note" data-t="trNote">Drawn to scale. Tap a place.</p>
+    </div>
+    <div class="gmap rv"><iframe id="gmap" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map to St. Mary's Church, Kalathoor"></iframe></div>
+    <p class="center-row rv"><a class="btn" id="mapLink" target="_blank" rel="noopener" data-t="mapCta">Open in Google Maps</a></p>
+  </section>
+
+  <!-- ======================= RSVP ======================= -->
+  <section id="rsvp" class="sec wrap">
+    <div class="center">
+      <p class="eyebrow rv" data-t="rsEyebrow">Kindly Respond</p>
+      <h2 class="rv" data-split data-t="rsTitle">Will You Be There?</h2>
+      <p class="lead rv" data-t="rsLead">Kindly let us know by the 15th of January. A note is all we need: who is coming and how many.</p>
+    </div>
+
+    <form id="rsvpForm" class="rv" autocomplete="on" novalidate>
+      <input class="hpot" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="field">
+        <label class="flabel" for="fname" data-t="fName">Your name</label>
+        <input type="text" id="fname" name="name" required maxlength="120" autocomplete="name">
+      </div>
+      <fieldset class="field">
+        <legend class="flabel" data-t="fAttending">Will you come?</legend>
+        <div class="chips">
+          <label class="chip"><input type="radio" name="attending" value="yes" checked><span data-t="fYes">Joyfully, yes</span></label>
+          <label class="chip"><input type="radio" name="attending" value="no"><span data-t="fNo">Sadly, cannot</span></label>
+        </div>
+      </fieldset>
+      <div class="cond open" id="guestsField"><div class="cond-inner"><div class="field">
+        <span class="flabel" id="gLabel" data-t="fGuests">How many of you?</span>
+        <div class="stepper" role="group" aria-labelledby="gLabel">
+          <button type="button" id="gDown" aria-label="fewer">−</button>
+          <output id="gN" aria-live="polite">1</output>
+          <button type="button" id="gUp" aria-label="more">+</button>
+        </div>
+      </div></div></div>
+      <div class="cond open" id="arriveField"><div class="cond-inner"><fieldset class="field">
+        <legend class="flabel" data-t="fArrive">When will you arrive?</legend>
+        <div class="chips">
+          <label class="chip"><input type="radio" name="arrival" value="wedding-day" checked><span data-t="aDay">On the wedding day</span></label>
+          <label class="chip"><input type="radio" name="arrival" value="day-before"><span data-t="aBefore">The day before</span></label>
+          <label class="chip"><input type="radio" name="arrival" value="few-days-early"><span data-t="aEarly">A few days early</span></label>
+        </div>
+      </fieldset></div></div>
+      <div class="cond" id="stayField"><div class="cond-inner"><fieldset class="field">
+        <legend class="flabel" data-t="fStay">Where will you stay?</legend>
+        <div class="chips">
+          <label class="chip"><input type="radio" name="stay" value="arrange" checked><span data-t="sArrange">Kindly arrange a stay for us</span></label>
+          <label class="chip"><input type="radio" name="stay" value="own"><span data-t="sOwn">With family or friends nearby</span></label>
+          <label class="chip" id="hotelChip"><input type="radio" name="stay" value="hotel"><span data-t="sHotel">We'll book a hotel nearby</span></label>
+        </div>
+        <div class="cond" id="hotelList"><div class="cond-inner">
+          <p class="hnote" data-t="hotelsNote">Stays near the church. Tap one for directions.</p>
+          <div class="hgrid" id="hgrid"></div>
+        </div></div>
+      </fieldset></div></div>
+      <div class="field">
+        <label class="flabel" for="fmsg" data-t="fMessage">A message (optional)</label>
+        <textarea id="fmsg" name="message" rows="2" maxlength="1000"></textarea>
+      </div>
+      <div class="center-row"><button class="btn solid" type="submit" id="sendBtn" data-t="fSend">Send</button></div>
+      <p id="formMsg" role="status"></p>
+    </form>
+
+    <div id="sealed" hidden>
+      <svg class="seal" viewBox="0 0 120 120" aria-hidden="true">
+        <path class="seal-blob" d="M60 6c10 0 14 7 22 9s16-1 21 7-1 15 2 23 10 12 8 21-11 10-14 18 1 16-6 21-15-1-23 2-12 10-21 8-10-11-18-14-16 1-21-6 1-15-2-23S-1 60 1 51s11-10 14-18-1-16 6-21 15 1 23-2S50 6 60 6z"/>
+        <circle cx="60" cy="60" r="36" class="seal-ring"/>
+        <path class="seal-heart" d="M60 80 C38 64 40 46 50 44 C56 43 59 48 60 51 C61 48 64 43 70 44 C80 46 82 64 60 80Z"/>
+      </svg>
+      <p class="sealed-msg" data-t="okMsg">Thank you! We have you down, and we can't wait to see you.</p>
+    </div>
+
+    <div id="closed" hidden>
+      <p id="closedMsg" data-t="closedMsg">RSVPs have closed. Please call or message us, we'd still love to know.</p>
+      <p class="contact-line"><span data-t="contact">Call or message</span></p>
+      <p class="contacts" data-contacts></p>
+    </div>
+  </section>
+
+  <!-- ======================= FOOTER ======================= -->
+  <footer class="wrap center">
+    <p class="fnames rv" data-names lang="en">Tony &amp; Maria</p>
+    <p class="tagline rv" data-t="footTag">Happily ever after, snacks included.</p>
+    <p class="fdate rv" data-date>23 · 01 · 2027</p>
+    <p class="contacts rv" data-contacts></p>
+    <p class="fmade" data-t="madeWith">With love, from our families</p>
+  </footer>
+</main>
+
+<a id="rsvpPill" href="#rsvp" data-t="rsvpPill">RSVP</a>
+<audio id="bgm" loop preload="none"></audio>
+
+<script src="content.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+<script defer src="app.js"></script>
+</body>
+</html>
