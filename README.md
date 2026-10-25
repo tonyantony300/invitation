@@ -49,7 +49,7 @@ To show nearby hotel cards when a guest picks "hotel", fill in `hotels` in `cont
 
 ## Before sharing on WhatsApp
 
-In `index.html` and `engagement/index.html`, replace `https://example.com/` in `og:url` and `og:image` with your real domain. WhatsApp needs an absolute image URL to show the preview card.
+The preview tags in `index.html` and `engagement/index.html` point to `https://tonyantony300.github.io/invitation/`. If the site moves, update `og:url` and `og:image` in both files: WhatsApp needs the full image URL to show the preview card.
 
 ## Preview locally
 
